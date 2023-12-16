@@ -1,0 +1,28 @@
+//----------------------------- -*- C++ -*- -----------------------------===//
+//
+// Part of the set-Calc Project, under the GNU General Public License v3.0.
+//
+// See https://github.com/SR-MyStar/set-calc/blob/main/LICENSE
+// for license information.
+//
+// SPDX-License-Identifier: GNU General Public License v3.0 only
+//
+//===---- headers/initVecArray - @initVecArray function declaration -----===//
+
+#ifndef SETCALC_SRC_INITVECARRAY_
+#define SETCALC_SRC_INITVECARRAY_
+
+#include <algorithm>
+#include <format>
+#include <iostream>
+#include <ranges>
+#include <regex>
+#include <sstream>
+#include <vector>
+
+/// This function is used to initialize the vector array.
+///
+/// @param list User input.
+void initVecArray(std::string &list, std::pmr::vector<long double> &vec);
+
+#endif

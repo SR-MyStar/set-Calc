@@ -1,13 +1,22 @@
-//---------------------------- -*- C++ -*- ----------------------------===//
+//===----------------------------- -*- C++ -*- -----------------------------===//
 //
-// Part of the set-Calc Project, under the GNU General Public License v3.0.
+// Copyright (c) 2023 Star. All Rights Reserved.
 //
-// See https://github.com/SR-MyStar/set-calc/blob/main/LICENSE
-// for license information.
+// This file is part of set-calc.
 //
-// SPDX-License-Identifier: GNU General Public License v3.0 only
+// set-calc is free software: you can redistribute it and/or modify it under the
+// terms of the GNU General Public License as published by the Free Software
+// Foundation, either version 3 of the License, or (at your option) any later
+// version.
 //
-//===--- src/getModeNumber.cpp - @getModeNumber function definition ---===//
+// set-calc is distributed in the hope that it will be useful, but WITHOUT ANY
+// WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+// A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along with
+// set-calc. If not, see <https://www.gnu.org/licenses/>.
+//
+//===----- src/getModeNumber.cpp - @getModeNumber function definition ------===//
 
 #include "getModeNumber"
 

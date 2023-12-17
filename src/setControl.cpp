@@ -48,6 +48,5 @@ void showset(std::pmr::vector<long double> &vec) {
 void reset(std::pmr::vector<long double> &vec) {
     using std::format;
 
-    std::cout << "Now, set is emptied\n";
     vec.clear();
 }
